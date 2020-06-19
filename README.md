@@ -17,11 +17,11 @@ Finally, the GENEVA type 2 diabetes data: 2,558 subjects with 10000 SNPs, 8 envi
 ### diabetes_glm.RData
  
  - y: BMI
- - G (DataFrame): 2588 $\times$ 10000
- - E (DataFrame): 2588 $\times$ 8
+ - G (DataFrame): 2588*10000
+ - E (DataFrame): 2588*8
  
 ### snp_information.RData
-- DataFrame: 10000 $\times$ 8
+- DataFrame: 10000*8
 - the snp infromation correspoing with G. 
 
 
@@ -43,8 +43,8 @@ interaction analysis.
 
 ### SKCM.RData
 
-- G: gene factor. 298 $\times$ 10000
-- E: environmental factor. 298 $\times$ 5
-- y: min(T,C), where T is survival time and C is the censoring time. 298 $\times$ 1 
+- G (DataFrame): gene factor. 298*10000
+- E (DataFrame): environmental factor. 298*5
+- y: min(T,C), where T is survival time and C is the censoring time. 298*1 
 - delta: I(T< C). where delta indicates whether the lifetime T corresponds to an event (delta=  1) or is
-censored (delta =  0)
+censored (delta =  0). 298*1
