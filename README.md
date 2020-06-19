@@ -12,13 +12,13 @@ not essential. We select the region of 10,000 consecutive SNPs with the smallest
 downstream analysis.
 
 
-Finally, the GENEVA type 2 diabetes data: 2,558 subjects with 10000 SNPs, 8 environment factor
+Finally, the GENEVA type 2 diabetes data: 2,558 subjects with 10000 SNPs, 8 environment factor.
 
 ### diabetes_glm.RData
  
  - y: BMI
- - G (DataFrame): 2588*10000
- - E (DataFrame): 2588*8
+ - G (DataFrame): SNP factor. 2588*10000
+ - E (DataFrame): environmental factor. 2588*8
  
 ### snp_information.RData
 - DataFrame: 10000*8
